@@ -6,7 +6,6 @@
     "age": 30,
     "height": 174,
     "location": "Eilat",
-    "hobbies": [ "Bar", "Dance" ],
     "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": false
   },
@@ -17,7 +16,7 @@
     "age": 24,
     "height": 181,
     "location": "Tel-Aviv",
-    "hobbies": [ "Soccer", "Party" ],
+    "hobbies": [ "Bar", "Party" ],
     "image": "https://images.pexels.com/photos/736716/pexels-photo-736716.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": true
   },
@@ -28,7 +27,7 @@
     "age": 28,
     "height": 178,
     "location": "Netanya",
-    "hobbies": [ "Swim", "Dance" ],
+    "hobbies": [ "TV", "Dance" ],
     "image": "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": true
   },
@@ -39,7 +38,7 @@
     "age": 21,
     "height": 181,
     "location": "Ashdod",
-    "hobbies": [ "Friends", "Bar" ],
+    "hobbies": [ "Friends", "TV" ],
     "image": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": true
   },
@@ -50,7 +49,6 @@
     "age": 30,
     "height": 188,
     "location": "Jerusalem",
-    "hobbies": [ "TV", "Party" ],
     "image": "https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": false
   },
@@ -61,7 +59,6 @@
     "age": 30,
     "height": 179,
     "location": "Kfar-Saba",
-    "hobbies": [ "Netflix", "Swim" ],
     "image": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": false
   },
@@ -74,7 +71,7 @@
     "location": "Petah Tikva",
     "hobbies": [ "Bar", "Friends" ],
     "image": "https://images.pexels.com/photos/936229/pexels-photo-936229.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    "premium": false
+    "premium": true
   },
   {
     "id": "180",
@@ -83,7 +80,6 @@
     "age": 38,
     "height": 170,
     "location": "Tel-Aviv",
-    "hobbies": [ "Bar", "Party" ],
     "image": "https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": false
   },
@@ -94,7 +90,7 @@
     "age": 21,
     "height": 180,
     "location": "Eilat",
-    "hobbies": [ "Bar", "Swim" ],
+    "hobbies": [ "Bar", "Party" ],
     "image": "https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": true
   },
@@ -105,7 +101,6 @@
     "age": 30,
     "height": 170,
     "location": "Netanya",
-    "hobbies": [ "Friends", "Netflix" ],
     "image": "https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": false
   },
@@ -116,7 +111,7 @@
     "age": 27,
     "height": 163,
     "location": "Netanya",
-    "hobbies": [ "Friends", "Dance" ],
+    "hobbies": [ "Friends", "Party" ],
     "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": true
   },
@@ -127,7 +122,7 @@
     "age": 22,
     "height": 167,
     "location": "Kfar-Saba",
-    "hobbies": [ "Bar", "Netflix" ],
+    "hobbies": [ "Bar", "TV" ],
     "image": "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": true
   },
@@ -149,7 +144,6 @@
     "age": 40,
     "height": 171,
     "location": "Eilat",
-    "hobbies": [ "Netflix", "Swim" ],
     "image": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": false
   },
@@ -171,7 +165,7 @@
     "age": 25,
     "height": 169,
     "location": "Jerusalem",
-    "hobbies": [ "Netflix", "Friends" ],
+    "hobbies": [ "TV", "Friends" ],
     "image": "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": true
   },
@@ -182,7 +176,6 @@
     "age": 30,
     "height": 170,
     "location": "Jerusalem",
-    "hobbies": [ "Party", "Dance" ],
     "image": "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": false
   },
@@ -193,7 +186,6 @@
     "age": 22,
     "height": 165,
     "location": "Eilat",
-    "hobbies": [ "Soccer", "Party" ],
     "image": "https://images.pexels.com/photos/1082962/pexels-photo-1082962.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500s",
     "premium": false
   },
@@ -204,7 +196,6 @@
     "age": 28,
     "height": 171,
     "location": "Tel-Aviv",
-    "hobbies": [ "Party", "Netflix" ],
     "image": "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "premium": false
   },
@@ -217,6 +208,6 @@
     "location": "Petah Tikva",
     "hobbies": [ "TV", "Bar" ],
     "image": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    "premium": false
+    "premium": true
   }
 ]
