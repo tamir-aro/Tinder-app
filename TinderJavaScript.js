@@ -7,7 +7,7 @@
                 "age": 30,
                 "height": 174,
                 "location": "Eilat",
-                "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+                "image": "https://images.askmen.com/1080x540/2016/01/25-021526-facebook_profile_picture_affects_chances_of_getting_hired.jpg",
                 "premium": false
             },
             {
@@ -212,7 +212,7 @@
         },
         {
             "id": "300",
-            "name": "Shira Kunefa",
+            "name": "Shira Yafa",
             "gender": "female",
             "age": 35,
             "height": 173,
@@ -248,19 +248,12 @@ class profile {
        <div class="row">
             <div id="PersonImg" class="col-sm-12">
 <div id="userCardforDOM">
-                <img class="img-fluid rounded mx-auto d-block" src="${this.image}" />
+                <img id="profileImg" class="img-fluid rounded mx-auto d-block" src="${this.image}" />
                 <p id="userName">Name: ${this.name}</p>
-                <p id="userAge">Age: ${this.age}</p>
-                <p id="height">Height: ${this.height}</p>
+                <p id="userAge">Age: ${this.age} , Height: ${this.height}</p>
                 <p id="userLocation">Location: ${this.location}</p>
-                
-
-               
-
-
                 </div>
             </div>
-
         </div>
         
          `
@@ -333,7 +326,9 @@ class MainApp {
 
      let footer1 = `<div id="likeDislike">
         <span><i class="fas fa-thumbs-down" id="dislike" onclick="movenext()"></i></span>
-        &emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;
+                    <span><img src="http://www.onlywebpro.com/wp-content/uploads/2012/12/icon-sprites2.png" onclick="restartApp()"></span>
+&emsp;&emsp;&emsp;
                     <span> <i class="fas fa-thumbs-up" id="like" onclick="movenext()"></i></span>
     </div>`;
      document.getElementById("header").innerHTML = header1;
@@ -344,14 +339,9 @@ class MainApp {
 
 }
 
-let mainapp = new MainApp(users); 
+ mainapp = new MainApp(users); 
 
 
-///שלוחצים על הלוגו מתחילים מחדש
-//$("#logo").on("click",function () {
-//    mainapp = new MainApp(users);
-//});
-//לא עובד תנסו לסדר אחים!!!
 
 
 function show() {
@@ -388,17 +378,37 @@ function movenext() {
         mainapp.next();
 }
 
+function restartApp() {
+    mainapp = new MainApp(users); 
+    document.getElementById("header").innerHTML = "";
+    document.getElementById("ph").innerHTML = htmlstartscreen;
+    document.getElementById("footer").innerHTML = "";
+    var slidermin = document.getElementById("myRangemin");
+    var slidermax = document.getElementById("myRangemax");
+    var outputmin = document.getElementById("MINAGE");
+    var outputmax = document.getElementById("MAXAGE");
+
+    outputmin.innerHTML = slidermin.value;
+    outputmax.innerHTML = slidermax.value;
+    slidermin.oninput = function () {
+        outputmin.innerHTML = this.value;
+    }
 
 
 
-    
-    
-
+    slidermax.oninput = function () {
+        outputmax.innerHTML = this.value;
+    }
+}
 
 
 
 //בהפעלת האפליקציה זה רץ
 $(document).ready(function () {
+
+
+
+
 
      htmlstartscreen = ` <div id="appFrame" class="container-fluid">
         <div id="titleDiv" class="row">
@@ -471,6 +481,10 @@ $(document).ready(function () {
 
 
 
+;
+
+
+
 
 
     //תצוגה של סליידרים
@@ -484,7 +498,9 @@ outputmax.innerHTML = slidermax.value;
 slidermin.oninput = function() {
   outputmin.innerHTML = this.value;
   }
-  
+
+
+
 slidermax.oninput = function() {
   outputmax.innerHTML = this.value;
 }
