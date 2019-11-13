@@ -7,7 +7,7 @@
                 "age": 30,
                 "height": 174,
                 "location": "Eilat",
-                "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+                "image": "https://images.askmen.com/1080x540/2016/01/25-021526-facebook_profile_picture_affects_chances_of_getting_hired.jpg",
                 "premium": false
             },
             {
@@ -212,7 +212,7 @@
         },
         {
             "id": "300",
-            "name": "Shira Kunefa",
+            "name": "Shira Yafa",
             "gender": "female",
             "age": 35,
             "height": 173,
@@ -250,17 +250,10 @@ class profile {
 <div id="userCardforDOM">
                 <img id="profileImg" class="img-fluid rounded mx-auto d-block" src="${this.image}" />
                 <p id="userName">Name: ${this.name}</p>
-                <p id="userAge">Age: ${this.age}</p>
-                <p id="height">Height: ${this.height}</p>
+                <p id="userAge">Age: ${this.age} , Height: ${this.height}</p>
                 <p id="userLocation">Location: ${this.location}</p>
-                
-
-               
-
-
                 </div>
             </div>
-
         </div>
         
          `
