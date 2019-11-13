@@ -326,9 +326,10 @@ class MainApp {
 
      let footer1 = `<div id="likeDislike">
         <span><i class="fas fa-thumbs-down" id="dislike" onclick="movenext()"></i></span>
-        &emsp;&emsp;&emsp;&emsp;
-                    <span> <i class="fas fa-thumbs-up" id="like" onclick="movenext()"></i></span>
+&emsp;&emsp;&emsp;
                     <span><img src="http://www.onlywebpro.com/wp-content/uploads/2012/12/icon-sprites2.png" onclick="restartApp()"></span>
+&emsp;&emsp;&emsp;
+                    <span> <i class="fas fa-thumbs-up" id="like" onclick="movenext()"></i></span>
     </div>`;
      document.getElementById("header").innerHTML = header1;
      document.getElementById("ph").innerHTML = this.userArr[this.pointer].Render();
